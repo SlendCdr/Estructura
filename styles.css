@@ -5,7 +5,6 @@ html{
     color: white;
     background-color: #232946;
     font-size: 17px;
-    justify-content: right;
 }
 .container{
     display: grid;
@@ -14,6 +13,7 @@ html{
     margin-left: 5%;
     margin-right: 10%;
     padding-right: 200px;
+    padding-top: 3%;
 }
 .aside{
     font-size: 14px;
@@ -53,4 +53,25 @@ p, ul, ol{
 }
 a:link{
     color: #EEBBC3;
+}
+footer{
+    background-color: #EEBBC3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    font-size: 32px;
+    color: #232946;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer img{
+    display: inline;
+    justify-content: center;
+    size: 24px 24px;
+}
+hr{
+    display: none;
 }
