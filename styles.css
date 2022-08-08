@@ -14,6 +14,7 @@ html{
     margin-right: 10%;
     padding-right: 200px;
     padding-top: 3%;
+    padding-bottom: 3%;
 }
 .aside{
     font-size: 14px;
@@ -45,6 +46,7 @@ h2{
     padding: 40px;
 }
 p, ul, ol{
+    line-height: 24px;
     color: #B8C1EC;;
 }
 .e{
@@ -74,4 +76,29 @@ footer img{
 }
 hr{
     display: none;
+}
+form{
+    width: 100%;
+
+}
+.formu{
+    color: white;
+    font-size: 16px;
+    width: 100%;
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+}
+#submit{
+    color: #232946;
+    font-weight: bold;
+    font-size: 16px;
+    width: 100%;
+    background-color: #EEBBC3;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid white;
 }
