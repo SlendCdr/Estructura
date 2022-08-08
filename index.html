@@ -42,18 +42,17 @@
       </p>
       <hr>
       </section>
-      <img src="/Spider-Man.jpg" alt="">
       <section id="setup">
         <h2>Setup</h2>
         <article>
-          <img class="icons" src="/Spider-Man.jpg" alt="Google">
+          <img class="icons" src="icons/chrome.svg" alt="Google">
           <h3>1. Google Chrome</h3>
           <p>
             Chrome va a ser el navegador que utilizaremos en el curso por su extenso soporte de nuevos estándares y
             herramientas de desarrollo avanzadas y de amigable uso.
           </p>
         </article>
-        <img class="icons" src="/icons/visualstudio.svg" alt="Visual Studio Code">
+        <img class="icons" src="icons/visualstudio.svg" alt="Visual Studio Code">
         <h3>2. Visual Studio Code</h3>
         <p>
           Visual Studio Code es el editor de texto más popular y potente del mercado actualmente, su fácil uso y la
@@ -62,7 +61,7 @@
         </p>
         </article>
         <article>
-          <img class="icons" src="/icons/figma.svg" alt="Figma">
+          <img class="icons" src="icons/figma.svg" alt="Figma">
           <h3>3. Figma</h3>
           <p>Figma es una la herramienta más popular en la actualidad para
             entregar diseños a los desarrolladores para su implementación
@@ -70,7 +69,7 @@
             navegador.</p>
         </article>
         <article>
-          <img class="icons" src="/icons/github.svg" alt="Github">
+          <img class="icons" src="icons/github.svg" alt="Github">
           <h3>4. Github</h3>
           <p>Así como en Facebook te encuentran tus amigos, en Github te
             encuentran otras programadoras y programadores de todo el mundo,
@@ -79,7 +78,7 @@
             privada, Github será esencial para almacenar tu futuro
             portafolio.</p>
         </article>
-        <blockquote>
+        <blockquote id="blockquote">
           “Este es el inicio de tu carrera como Desarrollador Web”
           <br>
           - Leonidas Esteban
@@ -92,21 +91,18 @@
         <p>Hyper Text Markup Language o Lenguaje de marcas Hipertexto. Es el
           componente más básico de la web. Define el
           significado y la estructura del contenido.</p>
-        <pre>
-          <code><!DOCTYPE html>
-          <html lang="en">
+        <pre id="code">
+          &lt;!DOCTYPE html&gt;
+          &lt;html lang=&quot;en&quot;&gt;
+          &lt;head&gt;
+          &lt;meta charset=&quot;UTF-8&quot;&gt;
+          &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+          &lt;title&gt;Document&lt;/title&gt;
+          &lt;/head&gt;
+          &lt;body&gt;
           
-          <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Document</title>
-          </head>
-          
-          <body>
-          
-          </body>
-          
-          </html></code>
+          &lt;/body&gt;
+          &lt;/html&gt;
         </pre>
 
         <h3>Etiquetas</h3>
@@ -128,7 +124,7 @@
           cuando entendemos esta anidación podemos identificar
           dependencias, herencias en css y que tan complejo es nuestro
           proyecto.</p>
-        <img src="/icons/dom.png" alt="DOM">
+        <img src="images/dom.png" alt="DOM">
         <h3>Semántica</h3>
         <p>La semántica le brinda sentido a cada elemento existen en un
           sitio web, algunos elementos será meramente decorativos
@@ -151,11 +147,11 @@
         <p>Hojas de Estilo en Cascada (del inglés Cascading Style Sheets) o
           CSS es el lenguaje de estilos utilizado para
           describir la presentación de documentos HTML</p>
-        <img src="/icons/CSS.png" alt="CSS">
+        <img src="images/CSS.png" alt="CSS">
       </section>
       <section>
         <h3>Modelo de caja</h3>
-        <h2>El modelo de caja está compuesto por:</h2>
+        <p class="e">El modelo de caja está compuesto por:</p>
         <p>Chrome va a ser el navegador que utilizaremos en el curso por su
           extenso soporte de nuevos estándares y herramientas de desarrollo
           avanzadas y de amigable uso.</p>
@@ -185,8 +181,10 @@
           <li>padding-block | padding-inline | padding-block-start | padding-block-end | padding-inline-start |
             padding-inline-end</li>
         </ul>
+        <p class="e">Modelo de caja</p>
+        <img src="images/foto.png" alt="miniatura">
       </section>
-      <h4>Si tienes alguna pregunta escríbeme a me@leonidasesteban.com</h4>
+      <p>Si tienes alguna pregunta escríbeme a <a href="me@leonidasesteban.com">me@leonidasesteban.com</a></p>
       <h2>Suscríbete a nuestro newsletter</h2>
       <form>
         <input type="text" placeholder="Nombre" />
